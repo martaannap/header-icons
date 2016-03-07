@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+
+  font: normal 100%/1.5 Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #d05c2e;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+ol {
+  font-size: 1.125rem;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  display:block;
+}
+
+.image-float-right {
+  width: 100%;
+  max-width: 5rem;
+  max-height: 5rem;
+  float: right;
+}
+
+.image-float-left {
+  width: 100%;
+  max-width: 5rem;
+  max-height: 5rem;
+  float: left;
+}
