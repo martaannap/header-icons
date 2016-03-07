@@ -59,3 +59,7 @@ h1 {
   max-height: 3rem;
   float: left;
 }
+
+li:hover {
+  background-color: #a63f38;
+}
